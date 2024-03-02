@@ -1,0 +1,32 @@
+-- Initlize Git
+git init 
+-- Configure Git
+git config --global user.name 'Abc'
+git config --global user.email 'Abc@gmail.com'
+-- Check Stages
+git status
+-- Add Files Into Unstage
+git add -A
+-- Add Files To Local Repo
+git commit -m 'Message Regarding Work'
+-- Recover Deleted Files--
+git checkout FileName.txt
+
+--Branch--
+--create new branch
+git branch version1
+-- check available branch
+git branch
+-- Move Towards Branches
+git checkout version1
+
+-- Merge Branches--
+git merge BranchName
+--- Remote Connection --
+-- Check Available Connection
+git remote -v
+-- make new connection 
+git remote add RepoName URL
+
+-- Upload Files --
+git push RepoName branchName
